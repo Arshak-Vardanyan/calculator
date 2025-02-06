@@ -23,7 +23,12 @@ export default function Calculator() {
     };
 
     return (
-        <div className="flex justify-center items-center h-screen bg-gray-100">
+        <div className="flex flex-col justify-center items-center h-screen bg-gray-100">
+            <div className='pb-3'>
+                <p className='text-xl text-teal-500'>
+                 Հատուկ Շանթ-ի համար,որ փողերը հաշվի
+                </p>
+            </div>
             <div className="bg-white p-6 rounded-lg shadow-lg w-80">
                 <div className="mb-4 p-4 bg-gray-200 text-right text-2xl rounded">{input || '0'}</div>
                 <div className="grid grid-cols-4 gap-2">
